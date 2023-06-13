@@ -7,5 +7,5 @@
     <project path="vendor/samsung/a53x" name="android_vendor_samsung_a53x" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
     <project path="kernel/samsung/a53x" name="android_kernel_samsung_a53x" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
     <project path="device/samsung/universal8825-common" name="android_device_samsung_universal8825-common" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
-    <project path="hardware/samsung/" name="android_hardware_samsung" remote="lineage" revision="lineage-20" clone-depth="1" />
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage" revision="lineage-20" clone-depth="1" />
 </manifest>
