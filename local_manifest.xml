@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="lineage" fetch="https://github.com/LineageOS" />
-    <remote name="fgnor" fetch="https://github.com/FgnorDevelopment" />
+    <remote name="bibin" fetch="https://github.com/bibindasb" />
+    <remote name="frosa" fetch="https://github.com/bibindasb" />
 
-    <project path="device/samsung/a53x" name="android_device_samsung_a53x" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
-    <project path="vendor/samsung/a53x" name="android_vendor_samsung_a53x" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
-    <project path="kernel/samsung/a53x" name="android_kernel_samsung_a53x" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
-    <project path="device/samsung/universal8825-common" name="android_device_samsung_universal8825-common" remote="fgnor" revision="lineage-20.0" clone-depth="1" />
-    <project path="hardware/oplus" name="android_hardware_samsung" remote="lineage" revision="lineage-20" clone-depth="1" />
+    <project path="device/realme/rmx3371" name="android_device_realme_rmx3371" remote="bibin" revision="A13" clone-depth="1" />
+    <project path="vendor/realme/rmx3371" name="proprietary_vendor_realme_rmx3371" remote="frosa" revision="lineage-20" clone-depth="1" />
+    <project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" remote="frosa" revision="lineage-20" clone-depth="1" />
+    <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="bibin" revision="PE" clone-depth="1" />
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage" revision="lineage-20" clone-depth="1" />
 </manifest>
